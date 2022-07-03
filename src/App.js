@@ -14,12 +14,7 @@ let serverLink="https://wtc.tu-chemnitz.de/krb/saml2/idp/SSOService.php?target=h
   
      
   }).catch((err) => {
-    swal.fire({
-      icon: 'error',
-      title: 'Oops...',
-      text: 'Something went wrong while fetching requests!',
-    
-    })
+    console.log("error",err)
      
   });;
 
